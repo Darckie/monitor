@@ -1,0 +1,37 @@
+.ViewDash {
+
+    height: -webkit-fill-available;
+
+}
+
+.Bigcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+/* .css-yseucu-MuiDataGrid-columnHeaderRow {
+    background-color: #3d46f0 !important;
+    color: #ffffff !important;
+} */
+
+@media screen and (max-width:1000px) {
+
+
+    .MuiDataGrid-toolbarQuickFilter {
+        position: relative !important;
+        right: 0 !important;
+    }
+
+    .cardX {
+        margin-top: 60px;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
